@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans Japanese" sans-serif;
+}
+
+header {
+    display: flex; /* Flexboxレイアウトを適用 */
+    justify-content: space-between; /* アイテムを中央揃え */
+    align-items: center; /* アイテムを垂直方向に中央揃え */
+    margin: 20px auto;
+    max-width: 960px;
+    
+}
+a{
+    text-decoration: none; /* 文字の下線を消す */
+    color: black;
+    margin: 0 15px;
+
+}
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+/* ナビゲーションメニューのMyProfileの部分 */
+  h1 {
+    font-size: 34px;
+    border: 1px solid black;
+    margin-left: 20px;
+  }
+
+
+ #nav {
+    font-size: 34px;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+h2 {
+    /* テキストやインライン要素を中央揃え */
+    text-align: center; 
+    font-size: 34px;
+    padding: 60px 0 40px;
+    
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.about-image {
+    max-width: 100%;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+.profile {
+    padding: 0 20px;
+}
+.name {
+    font-size: 24px;
+}
+li, p{
+    font-size: 18px;
+}
+.works-inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 960px;
+}
+.item {
+    width: 25%;
+    margin: 0 10px;
+    padding-bottom: 60px;
+}
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* スマホ対応 */@media screen and (max-width: 767px) {
+   
+    .works-inner {
+        display: block;
+        width: 90%;
+    }
+    .item {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 60px;
+      }
+    
+    #nav {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        font-size: 21px;
+    }
+
+    h1 {
+        font-size: 21px;
+    }
+}
+
+
