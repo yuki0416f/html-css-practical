@@ -48,10 +48,10 @@ h2 {
 .about-content {
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 10px;
     flex-wrap: wrap;
-    justify-content: center;
+    max-width: 960px;
 
 }
 .about-image {
@@ -104,11 +104,9 @@ footer {
         display: flex;
         justify-content: center;
         font-size: 21px;
-    }
+
 
     h1 {
         font-size: 21px;
     }
 }
-
-
